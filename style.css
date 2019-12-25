@@ -1,7 +1,7 @@
 body {
-  background: #000000;
-  color: #00ff00;
-  font-family: monospace;
+  background: #EBEBEB;
+  color: #000;
+  font-family: 'Inconsolata', monospace;
 }
 
 .accessGranted {
@@ -14,6 +14,7 @@ body {
   left: 50%;
   margin-left: -150px;
   text-align: center;
+  color: #fff;
 }
 
 .accessDenied {
@@ -35,15 +36,15 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #EBEBEB;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: #EBEBEB;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #000000;
+  background: #EBEBEB;
 }
